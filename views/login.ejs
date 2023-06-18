@@ -1,0 +1,16 @@
+<form
+        enctype="multipart/form-data"
+        action="http://localhost:5000/api/user/login"
+        method="post"
+>
+    <label>
+        <span>Логин</span>
+        <input name="login" type="text">
+    </label>
+    <label>
+        <span>Пароль</span>
+        <input name="password" type="password">
+    </label>
+    <button>Авторизоваться</button>
+    <a href="/api/user/login?type=signup">Зарегистрироваться</a>
+</form>

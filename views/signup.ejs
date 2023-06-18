@@ -1,0 +1,23 @@
+<form
+        enctype="multipart/form-data"
+        action="http://localhost:5000/api/user/signup"
+        method="post"
+>
+    <label>
+        <span>Ваше имя</span>
+        <input name="name" type="text">
+    </label>
+    <label>
+        <span>Логин</span>
+        <input name="login" type="text">
+    </label>
+    <label>
+        <span>Пароль</span>
+        <input name="password" type="password">
+    </label>
+    <label>
+        <span>Подтвердите пароль</span>
+        <input name="confirm" type="password">
+    </label>
+    <button>Зарегистрироваться</button>
+</form>
